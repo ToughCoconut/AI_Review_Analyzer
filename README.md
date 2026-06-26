@@ -34,7 +34,7 @@ pip install openpyxl
 This tool connects to ChatGPT through OpenAI's service. You need an account and an API key from:
 [https://platform.openai.com/account/api-keys](https://platform.openai.com/account/api-keys)
 
-> ⚠️ **Note:** Using the API costs money based on usage. Check OpenAI's pricing page before running this on a large spreadsheet.
+> **Note:** Using the API costs money based on usage. Check OpenAI's pricing page before running this on a large spreadsheet.
 
 ### 4. Your Excel File (.xlsx format)
 Your spreadsheet must be set up like this:
@@ -110,13 +110,13 @@ After the script runs, your Excel file will be updated with:
 
 ## Important Notes & Warnings
 
-> ⚠️ **Back up your Excel file** before running this script. The script saves directly over your original file.
+> **Back up your Excel file** before running this script. The script saves directly over your original file.
 
-> ⚠️ **Deprecated AI model:** This script uses `text-davinci-003`, which has been shut down by OpenAI. A developer will need to update it to use a newer model such as `gpt-3.5-turbo` or `gpt-4`.
+> **Deprecated AI model:** This script uses `text-davinci-003`, which has been shut down by OpenAI. A developer will need to update it to use a newer model such as `gpt-3.5-turbo` or `gpt-4`.
 
-> 💰 **Cost warning:** Every review sent to ChatGPT costs a small amount via the OpenAI API. Running this on hundreds or thousands of reviews can add up. Check your OpenAI usage dashboard regularly.
+> **Cost warning:** Every review sent to ChatGPT costs a small amount via the OpenAI API. Running this on hundreds or thousands of reviews can add up. Check your OpenAI usage dashboard regularly.
 
-> ℹ️ The script processes reviews in **batches of 25** to keep the analysis manageable for the AI. This is normal and intentional.
+> The script processes reviews in **batches of 25** to keep the analysis manageable for the AI. This is normal and intentional.
 
 ---
 
